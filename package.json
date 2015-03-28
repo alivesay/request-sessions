@@ -1,0 +1,41 @@
+{
+  "name": "request-sessions",
+  "description": "Provides cached session support for request.",
+  "version": "1.0.0",
+  "author": "Andrew Livesay <andrew.livesay@gmail.com>",
+  "repository": "https://github.com/alivesay/request-sessions",
+  "main": "index",
+  "keywords": [
+    "request",
+    "sessions",
+    "cookies"
+  ],
+  "engines": {
+    "node": ">=0.10.37"
+  },
+  "dependencies": {
+    "async": "0.9.x",
+    "catbox": "4.x.x",
+    "catbox-crypto": "4.x.x",
+    "hoek": "2.x.x",
+    "jarson": "^1.0.0",
+    "request": "^2.44.0",
+    "underscore": "^1.8.2"
+  },
+  "peerDependencies": {
+    "request": "2.x.x"
+  },
+  "devDependencies": {
+    "mocha": "2.x.x"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/alivesay/request-sessions/master/LICENSE"
+    }
+  ],
+  "private": true
+}
